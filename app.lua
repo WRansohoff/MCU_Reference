@@ -15,7 +15,7 @@ app:get("/", function(self)
   err_msg = self.session.err_msg
   self.session.err_msg = nil
 
-  return "Welcome to Lapis " .. require("lapis.version")
+  return { render = "main" }
 end)
 
 return app

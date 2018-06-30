@@ -1,0 +1,41 @@
+.main_content {
+  width: 98%;
+  height: 98%;
+  position: absolute;
+  transform: translate(0, 0);
+}
+
+.main_table {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.table_top_row {
+  height: 15%;
+  width: 100%;
+  position: absolute;
+}
+
+.table_top_cell {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: red;
+}
+
+.bottom_row {
+  height: 85%;
+  width: 100%;
+}
+
+.table_left_sidebar {
+  height: 85%;
+  width: 120px;
+  background-color: green;
+}
+
+.table_right_panel {
+  height: 85%;
+  background-color: blue;
+}

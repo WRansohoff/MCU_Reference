@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" href="static/css/test_main.css" />
+  <link rel="stylesheet" href="static/css/layout_default.css" />
   <meta charset="UTF-8">
   <title><%= page_title or "(No Title)" %></title>
 </head>
