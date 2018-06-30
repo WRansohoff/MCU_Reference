@@ -21,16 +21,21 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: yellow;
+  background-color: red;
 }
 
-.table_bottom_panel {
+.table_bottom_row {
   height: 85%;
   width: 100%;
 }
 
-.table_bottom_cell {
-  height: 100%;
-  width: 100%;
-  background-color: purple;
+.table_left_sidebar {
+  height: 85%;
+  width: 320px;
+  background-color: green;
+}
+
+.table_right_panel {
+  height: 85%;
+  background-color: blue;
 }

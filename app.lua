@@ -15,7 +15,22 @@ app:get("/", function(self)
   err_msg = self.session.err_msg
   self.session.err_msg = nil
 
+  -- Set the web page's title.
+  page_title = 'MCURef :D'
+
   return { render = "main" }
+end)
+
+-- Default index page.
+app:get("/mcu_list", function(self)
+  -- Display an error message if appropriate.
+  err_msg = self.session.err_msg
+  self.session.err_msg = nil
+
+  -- Set the web page's title.
+  page_title = 'MCURef List Page'
+
+  return { render = "mcu_list" }
 end)
 
 return app
